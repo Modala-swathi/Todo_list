@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.outer{
+    background-color: #0f1f37;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    color: White;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color:  #ffffff30;
+    width:450px;
+    height:550px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.greetings{
+    width:30%;
+    text-align: left;
+}
+.heading{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.task{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: white;
+    width:95%;
+    height:40px;
+    background-color: #ffffff30;
+    font-size: 18px;
+    padding-left:10px ;
+}
+input::placeholder{
+    color: #ffffffa5;
+}
+.button{
+    width: 98%;
+    height:40px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top:10px;
+}
+.button:hover{
+    background-color: yellow;
+}
+.logout{
+    color: white;
+    background-color: transparent;
+    float: right;
+}
+.logout:hover{
+    border:1px solid white;
+}
+.activities{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-left: 5px;
+    height: 320px;             
+    overflow-y: auto; 
+}
+.activity{
+    border: 1px solid white;
+    background-color: rgb(75, 116, 116);
+    color:white;
+    font-size: 20px;
+    min-height: 40px;
+    border-radius: 8px;
+    width:97%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:10px;
+    padding-right: 10px;
+    box-sizing: border-box; 
+}
+.action-buttons{
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+}
+.delete,.edit{
+    background-color: transparent;
+    color:white;
+    border:None;
+    cursor: pointer;
+}
